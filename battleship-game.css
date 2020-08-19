@@ -1,6 +1,9 @@
 body{
 	background-color:black;
 }
+.text{
+	font-family: faster one;
+}
 #grid{
 	background: url("http://jadehone.com/assets/battleship-board.jpg") no-repeat;
 	position:relative;
