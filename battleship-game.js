@@ -153,16 +153,16 @@ function parseGuess(guess){
 
 function handleFireButton(){
 	let guessInput = document.getElementById("guessInput");
-	let guess = guessInput.value;
+	let guess = guessInput.value.toUpperCase();
 	controller.processGuess(guess);
 	guessInput.value = "";
 }
 
 window.onload = init;
 
-function handleKeyPress (e) {
+function handleKeyPress (event) {
 	let fireButton = document.getElementById("fireButton");
-	if (e.keycode === 13){
+	if (event.keyCode === 32){
 		fireButton.click();
 		return false;
 	}
