@@ -5,7 +5,7 @@ body{
 	font-family: faster one;
 }
 #grid{
-	background: url("http://jadehone.com/assets/battleship-board.jpg") no-repeat;
+	background: url("\BattleshipImages/battleship-board.jpg") no-repeat;
 	position:relative;
 	margin:auto;
 	width: 1024px;
@@ -42,9 +42,9 @@ form input{
 }
 
 .hit {
-	background: url("http://jadehone.com/assets/battleship-ship.png") no-repeat center center;
+	background: url("\BattleshipImages/battleship-ship.png") no-repeat center center;
 }
 
 .miss {
-	background: url("http://jadehone.com/assets/battleship-miss.png") no-repeat center center;
+	background: url("\BattleshipImages/battleship-miss.png") no-repeat center center;
 }
